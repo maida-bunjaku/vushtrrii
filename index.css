@@ -1,0 +1,361 @@
+html {
+   scroll-behavior: smooth;
+} 
+.main {
+   background-image: url(vushtrribg.jpg); 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 300px;
+}
+body {
+   padding-bottom:0 ; 
+   margin-bottom: 0; 
+   position: relative; 
+   bottom: 0;
+}
+ ul li , a {
+   text-decoration: none;    
+   padding: 14px 40px;   
+   color:black; 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+   font-size: 15px; 
+   transition: all 1s ease;
+ }
+ .background-video{
+   height: 100vh; 
+   width: 1200px;
+ }
+  ul{  
+     margin: 0;
+     background-color: gainsboro; 
+     opacity: 0.5;
+     display: flex; 
+     list-style-type: none; 
+     gap: 60px; 
+     border: 2px solid black; 
+  } 
+  .navbar{
+     margin: 0; 
+     padding: 0;
+  }  
+  .one{
+     font-size: 18px; 
+     font-weight: bolder;
+  } 
+  .linka:hover{
+     border: 1px solid darkslateblue; 
+     background-color: darkslateblue; 
+     border-radius: 20px; 
+    padding-top:  5px; 
+    padding-bottom: 5px;
+  }  
+  h2{
+     text-align: center; 
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+     margin-top: 200px; 
+     font-size: 50px; 
+     color: white;
+  } 
+  h1{
+    text-align: end;
+  } 
+.hist {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   width: 320px; 
+   text-align: center;  
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   border-radius: 10px; 
+   background-color: white;
+   margin-top: 20px; 
+   position: relative; 
+   bottom: 30px;
+} 
+#historia {
+   display: flex;
+   justify-content: center;
+   justify-content: space-between; 
+   background-color: #f1f1f1; 
+   padding: 25px;
+   padding-bottom: 195px; 
+   padding-top: 170px;
+} 
+#hist1 {
+   display: block;
+}
+#hist2 {
+   display: block;
+}
+#hist3 {
+   display: block;
+}
+i {
+   font-size: 20px;
+}
+.button {
+   position: relative; 
+   bottom: 140px;
+   left: 550px; 
+   font-family: 'Poppins', sans-serif;
+   background: transparent; 
+   border: none;
+   border-radius: 20px;
+   padding: 10px; 
+   font-weight: 400; 
+   box-shadow: 0 8px 15px rgb(0, 0, 0); 
+   padding-right: 1px;
+   padding-left: 1px;
+}  
+.href:hover{
+   color: white;
+}
+button:hover{
+   background-color: black;
+}
+#personalitetet {
+   background-color: #f1f1f1;  
+   position: relative;  
+   bottom: 315px;  
+   display: flex;
+   justify-content: center;  
+   justify-content: space-between;
+}
+.azemgalica {
+     width: 170px; 
+     height: 170px;  
+     border: 1px solid #f1f1f1;
+     border-radius: 50%;
+}
+.person {
+   font-family: 'Poppins', sans-serif; 
+   text-align: center; 
+   padding-top: 175px; 
+   position: relative; 
+   bottom: 115px;
+}
+.prg {
+   font-size: 12px;
+} 
+.btn {
+   font-family: 'Poppins' , sans-serif; 
+   border: 2px solid black; 
+   background-color: black; 
+   color: white; 
+   border-radius: 15px;
+} 
+.btn:hover {
+   box-shadow: 0 0 15px 2px rgb(66, 64, 64); 
+   background: transparent;
+   color: black;
+}
+.more {
+   color: white;
+}
+.more:hover{
+   color: black;
+}
+#monumentet {
+   background-color: #f1f1f1;   
+   padding: 70px;  
+   padding-left: 100px; 
+   padding-right: 100px; 
+   padding-bottom: 900px; 
+   position: relative;
+   bottom: 45px;
+}
+#monumentet p {
+   font-size: 15px;
+}
+.text {
+   position: relative; 
+   left: 10px; 
+   width: 400px;
+}
+.textt {
+   position: relative; 
+   left: 10px; 
+   width: 400px;
+}
+.monument {
+   display: flex; 
+   justify-items: center; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: white; 
+   width: 720px; 
+   font-family: 'Poppins', sans-serif; 
+   position: relative; 
+   left: 170px; 
+   bottom: 20px;
+}
+.imgmonument {
+   width: 310px; 
+   height: 310px;
+}
+.monument1 {
+   display: flex; 
+   justify-items: center; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: white; 
+   width: 720px; 
+   font-family: 'Poppins', sans-serif; 
+   position: relative; 
+   left: 170px; 
+   top: 45px;
+}
+.imgmonument1 {
+   width: 310px; 
+   height: 310px;
+   position: relative;
+   left: 10px;
+} 
+.monument2 {
+   display: flex; 
+   justify-items: center; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: white; 
+   width: 720px; 
+   font-family: 'Poppins', sans-serif; 
+   position: relative; 
+   left: 170px; 
+   top: 105px;
+   height: 310px;
+}
+.monument3 {
+   display: flex; 
+   justify-items: center; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: white; 
+   width: 720px; 
+   font-family: 'Poppins', sans-serif; 
+   position: relative; 
+   top: 375px; 
+   right: 710px;
+   height: 310px;
+}
+.block {
+   display: block;
+}
+footer {
+   text-align: center; 
+   font-family: 'Poppins' , sans-serif; 
+   background-color: black; 
+   padding: 8px; 
+   color: white; 
+   position: relative; 
+   bottom: 320px;
+} 
+#hidden {
+   display: none;
+   width: 300px;
+}
+
+#hidden1 {
+   display: none;
+   width: 300px;
+}
+#hidden2 {
+   display: none;
+   width: 300px;
+}  
+
+
+@media screen and (max-width: 1024px) {
+   .monument, .monument1, .monument2{
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     left: 0;
+     right: 0;
+   } 
+   #monumentet {
+      position: relative;
+      bottom: 120px;
+   }
+.monument3 {
+   display: none;
+}
+    .monument2 {
+      padding-bottom: 440px;
+    } 
+    .text1 {
+      position: relative; 
+      right:  170px;
+    }
+   .imgmonument, .imgmonument1 {
+     width: 90%;
+     height: auto;
+     margin-bottom: 10px;
+   }
+ 
+   .text, .text1, .textt {
+     width: 90%;
+     text-align: center;
+     left: 0;
+   }
+ 
+   #historia {
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: 50px;
+   }
+ 
+   .hist {
+     width: 90%;
+     margin-bottom: 20px;
+   }
+ 
+   #personalitetet {
+     flex-direction: column;
+     align-items: center; 
+     bottom: 700px;
+   }
+ 
+   .person {
+     padding-top: 50px;
+   }
+ 
+   .button {
+     position: relative; 
+     left: 410px; 
+     margin-top: 50px;
+   }
+ 
+   ul {
+     flex-direction: column;
+     align-items: center;
+     gap: 10px;
+   }
+ 
+   h2 {
+     font-size: 32px;
+     margin-top: 100px;
+   }
+ }
+ 
+ @media screen and (max-width: 600px) {
+   .main {
+     padding-bottom: 100px;
+   }
+ 
+   .azemgalica {
+     width: 120px;
+     height: 120px;
+   }
+ 
+   .btn {
+     font-size: 14px;
+     padding: 5px 10px;
+   }
+ 
+   ul li a {
+     padding: 10px 20px;
+     font-size: 14px;
+   }
+ 
+   .footer2 p {
+     font-size: 13px;
+     padding-bottom:  1200px;
+   } 
+ }
+ 

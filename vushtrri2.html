@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+
+    <div class="first">
+        <img src="sheshi.jpg" alt="">  
+        <div class="text">
+        <h3>Sheshi i Vushtrisë</h3> 
+        <p>  është një vend i rëndësishëm për qytetin, ku mblidhen njerëzit për aktivitete dhe ngjarje të ndryshme kulturore. Ai është i rrethuar me ndërtesa moderne dhe objekte historike që tregojnë historinë e pasur të qytetit.</p> 
+        </div>
+    </div> 
+
+    <div class="first">
+        <img src="A_view_from_Sitnica_river.jpg" alt="">  
+        <div class="text">
+        <h3>Lumi Sitnica</h3> 
+        <p>kalon përmes qytetit të Vushtrrisë dhe është lumi më i gjatë në Kosovë. Ai ka rëndësi të madhe për bujqësinë dhe historinë e zonës.</p>
+        </div>
+    </div> 
+
+    <div class="first">
+        <img src="View_of_cultivated_plants.jpg" alt="">  
+        <div class="text">
+        <h3>Natyra në Vushtrri</h3> 
+        <p>është e bukur dhe e qetë, me shumë fusha të gjelbra dhe male përreth. Ajo ofron ajër të pastër dhe vende të përshtatshme për shëtitje dhe relaksim.
+
+        </p> 
+        </div>
+    </div>
+    <style>
+        body {
+            background-color: #f1f1f1;  
+            display: flex;
+            justify-content: center; 
+            justify-content: space-between;
+        }   
+        .first {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding-bottom: 12px; 
+            padding: 20px;
+            background-color: white;  
+            width: 360px;  
+            height: 240px;
+            font-family: 'Poppins', sans-serif ;  
+            text-align: center; 
+            margin-top: 115px; 
+            animation: fadeIn 1s ease-in; 
+        }  
+        @keyframes fadeIn {
+   from { opacity: 0; transform: translateY(20px);} 
+   to { opacity: 1; transform: translateY(0);}
+}
+        img {
+            width: 120px; 
+            height: 120px; 
+            border-radius: 50%; 
+            position: relative; 
+            right: 130px; 
+            top: 50px;
+        } 
+        .text {
+            position: relative; 
+            left: 60px; 
+            bottom: 100px;
+        }
+        h3 {
+            font-size: 18px;
+        } 
+        p{
+            width: 200px; 
+            position: relative; 
+            left: 80px; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        </style> 
+</body>
+</html>

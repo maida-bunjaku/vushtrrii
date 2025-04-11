@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <button class="btn"><a href="index.html" >Kthehu mbrapa</a></button>
+    <div class="vetem2">
+     <div class="periudha" id="periudha1">
+        <img src="bgcolour.jpg" alt="">
+        <h3>Periudha e Antikitetit</h3> 
+        <p>Vushtrria ka ekzistuar që në Periudhën e Antikitetit dhe besohet që qyteti u themelua në
+            shekullin IV para Krishtit.Kjo zonë ka qenë pjesë e Dardanisë, një mbretëri ilire që shtrihej në territorin
+            e Kosovës së sotme dhe më gjerë .
+        </p>
+    </div> 
+
+    <div class="periudha" id="periudha2">
+        <img src="photo3.png" alt="">
+        <h3>Periudha Romake</h3> 
+        <p>Në shekullin e parë para Krishtit, Vushtrria u bë pjesë e Perandorisë Romake, dhe qyteti u zhvillua si një qendër tregtare dhe ekonomike në rajon. 
+            Gjatë kësaj periudhe, romakët ndërtuan ura dhe rrugë që lehtësuan tregtinë.
+        </p>
+    </div> 
+    </div>
+
+
+    <div class="vetem2">
+        <div class="periudha" id="periudha1">
+           <img src="photo2.jpg" alt="">
+           <h3>Periudha e Mesjetës</h3> 
+           <p> Gjatë Mesjetës, Vushtrria kishte rëndësi të madhe, sidomos gjatë periudhës së Mbretërisë Serbe dhe më vonë të Perandorisë Osmane. Në këtë kohë, qyteti u bë qendër tregtare e rëndësishme dhe
+            ishte i njohur për mjeshtërinë e metaleve dhe zejtarinë.
+           </p>
+       </div> 
+   
+       <div class="periudha" id="periudha2">
+           <img src="u1_e_Gurit_ne__Vicianen_ilire.jpg" alt="">
+           <h3>Periudha Osmane</h3> 
+           <p> Pas pushtimit osman në shekullin e 15-të,
+            Vushtrria përjetoi ndryshime të mëdha kulturore dhe shoqërore. U ndërtuan shumë xhami, ura, 
+            dhe ndërtesa që janë të njohura edhe sot, si Ura e Gurit.
+           </p>
+       </div> 
+       </div>
+
+
+    <style>
+        body {
+            background-color: #f1f1f1;
+        }
+        .vetem2 {
+            display: inline-flex;  
+            display: flex;
+            justify-content: center; 
+            justify-content: space-between;
+        }
+        .btn {
+   font-family: 'Poppins' , sans-serif; 
+   border: 2px solid black; 
+   background-color: black; 
+   color: white; 
+   border-radius: 15px;
+}  
+a{
+    color: #f1f1f1; 
+    text-decoration: none;
+}
+         .periudha{
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding-bottom: 12px;
+            background-color: white;  
+            width: 410px; 
+            font-family: 'Poppins', sans-serif ;  
+            text-align: center; 
+            margin-top: 115px; 
+            animation: fadeIn 1s ease-in;
+         }  
+         p{
+            color: rgb(102, 101, 101); 
+            font-size: 14px;
+         }
+         img {
+            width: 410px;
+            height: 220px;
+         } 
+         #periudha1 {
+            position: relative; 
+            left: 100px;
+         }
+         #periudha2 {
+            position: relative; 
+            right: 100px;
+         }
+         @keyframes fadeIn {
+   from { opacity: 0; transform: translateY(20px);} 
+   to { opacity: 1; transform: translateY(0);}
+}
+    </style>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init();
+</script> 
+
+</body>
+</html>

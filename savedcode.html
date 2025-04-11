@@ -1,0 +1,179 @@
+*
+#historia {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    background-image: url(photo3.png); 
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat; 
+      background-position: center; 
+      background-size: cover;  
+      height: 100vh;    
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0; 
+      margin: 0;
+ }
+ 
+ .paragraphs {
+    position: relative;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid none; 
+    background:  white;
+    opacity: 0.8;
+    backdrop-filter: blur(5px);
+    width: 340px;
+    position: relative; 
+    left: 120px;  
+    top: 45px; 
+    padding: 20px; 
+    padding-top: 10px;
+ } 
+ .one {
+    width: 320px; 
+    font-weight: 100;
+ } 
+ h4 {
+    font-size: 30px; 
+ }
+ .periods {
+    position: relative; 
+    left: 750px; 
+    border: 2px solid white; 
+    background-color: white;
+    opacity: 0.7;
+    bottom: 320px;
+    width: 200px; 
+    padding: 5px; 
+    font-size: 22px; 
+ }
+ .periods:hover {
+     background-color: white; 
+     border: none;
+     border-radius: 0px;
+ }
+ .period {
+    padding-top: 5px;
+ }
+ *
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="historia.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <img src="stema1.jpg" class="image1"> 
+    <h2> Historia e qytetit më të vjeter në Kosovë , Vushtrrisë </h2>
+    <nav> 
+        <ul>  
+            <li> <a href="" > Antikiteti  </a></li> 
+            <li> <a href="" > Periudha Romake  </a></li> 
+            <li> <a href="" > Mesjeta  </a></li> 
+            <li> <a href="" > Periudha Osmane </a></li>  
+          </ul>
+    </nav>  
+    <img src="bgcolour.jpg" class="image2">
+    <div class="back">
+    <h3 class="oneh1"> Një  vend  ku  historia  merr  frymë  dhe  flet </h3> 
+    <p>  Vushtrria,aty ku e kaluara takohet me të tashmen në çdo hap. </p>
+    </div>  
+     <div class="flex1">
+    <div class="content">
+    <h1> Periudha e Antikitetit </h1> 
+    <p class="one"> Vushtrria ka ekzistuar që në Periudhën e Antikitetit dhe besohet që qyteti u themelua në
+        shekullin IV para Krishtit.Kjo zonë ka qenë pjesë e Dardanisë, një mbretëri ilire që shtrihej në territorin
+        e Kosovës së sotme dhe më gjerë .
+    </p>
+  </div>
+
+  <div class="content">
+    <h1> Periudha Romake </h1> 
+    <p class="one"> Në shekullin e parë para Krishtit, Vushtrria u bë pjesë e Perandorisë Romake, dhe qyteti u zhvillua si një qendër tregtare dhe ekonomike në rajon. 
+        Gjatë kësaj periudhe, romakët ndërtuan ura dhe rrugë që lehtësuan tregtinë.
+    </p>
+  </div>
+
+  <div class="content">
+    <h1>  Periudha e Mesjetës </h1> 
+    <p class="one"> Gjatë Mesjetës, Vushtrria kishte rëndësi të madhe, sidomos gjatë periudhës së Mbretërisë Serbe dhe më vonë të Perandorisë Osmane. Në këtë kohë, qyteti u bë qendër tregtare e rëndësishme dhe
+         ishte i njohur për mjeshtërinë e metaleve dhe zejtarinë.
+    </p>
+  </div>
+
+  <div class="content">
+    <h1> Periudha Osmane </h1> 
+    <p class="one"> Pas pushtimit osman në shekullin e 15-të,
+         Vushtrria përjetoi ndryshime të mëdha kulturore dhe shoqërore. U ndërtuan shumë xhami, ura, 
+         dhe ndërtesa që janë të njohura edhe sot, si Ura e Gurit.
+ </p>
+  </div>
+  </div>   
+     
+    <div class="images">
+   <img src="festimi1943.jpg" class="image22">  
+   <div class="flex2">
+   <p class="nr1"> 1 </p> <p class="prgf"> Manifestimi i Pavarsisë së Shqipërisë më 28 Nëntor 1943 </p>
+   </div>
+</div> 
+
+<div class="images1">
+    <img src="vintagephoto.jpg" class="image23">  
+    <div class="flex3">
+    <p class="nr2"> 2 </p> <p class="prgf1"> Familje nga Vushtrria duke pirë qajë në vitin 1956-1957 </p>
+  </div>
+ </div> 
+     
+  <button id="showmore"> Shiko më shumë </button>
+  <div id="images"></div> 
+     <script>
+      const button = document.getElementById("showmore");
+      button.addEventListener( "click" , function () {
+        const showimages = document.getElementById("images");
+         showimages.innerHTML = `
+         <img src="imagesjs/image1js.jpg" style = "padding : 15px;" >
+         <img src="imagesjs/imagejs2.jpg" style = "padding : 15px;">
+         <img src="imagesjs/image3js.jpg" style = "padding : 15px;">
+         `
+      });
+     </script>
+     <style>
+      #images {
+        display: inline-flex;  
+        height: 290px; 
+        width: 180px; 
+        margin-right: 1020px; 
+      }
+      button {
+         position: relative; 
+         left: 560px; 
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+         border:   rgb(147, 126, 98) 2px solid; 
+         background-color: rgb(147, 126, 98);
+         padding: 12px; 
+         border-radius: 15px; 
+         font-weight: 500;
+      }
+     </style>
+</body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+//  <div class="antikiteti">  
+  <div class="paragraphs">
+  <h4> Vushtrria, qyteti i historisë  </h4> 
+  <p class="one"> Vushtrria ka një histori të pasur dhe të bukur, e cila pasqyron zhvillimin e qytetit dhe të njerëzve që kanë jetuar këtu për shekuj me radhë. Ky qytet ka luajtur një rol të rëndësishëm në historinë e Kosovës, duke ruajtur trashëgiminë dhe traditat e tij. Me kalimin e kohës, Vushtrria ka njohur periudha të ndryshme zhvillimi dhe është bërë një simbol i lidhjes mes të kaluarës dhe të tashmes. Historia e saj është një histori e shprehur në arkitekturën, kulturën dhe natyrën e mrekullueshme që e rrethojnë </p>  
+ </div>
+  <p class="period"> <a href="" class="periods">Periudha e Antikitetit </a></p> 
+  <p class="period"> <a href="" class="periods">Periudha e Romake</a> </p> 
+  <p class="period"><a href="" class="periods">Periudha e Mesjetës</a> </p>
+  <p class="period"><a href="" class="periods"> Periudha Osmane </a></p>
+ </div> 
